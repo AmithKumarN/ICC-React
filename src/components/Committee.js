@@ -1,13 +1,13 @@
 import React from 'react';
-import { Layout } from '../layout';
+import committee from '../committee.png'
 
 
 const Committee = () => {
     return (
-        <Layout>
-            <h1 style={{paddingTop: "85px"}}>International Coding Conference Committee</h1>
+        <div>
+            <h1 style={{paddingTop: "57px"}}>International Coding Conference Committee</h1>
 
-            <img src="committee.png" alt="Programmer" height="520px" width="575px" style={{paddingTop: "20px", paddingLeft:"155px"}} align="left" />
+            <img src={committee} alt="Programmer" height="520px" width="575px" style={{paddingTop: "20px", paddingLeft:"155px"}} align="left" />
 
             <ol align="left" style={{paddingLeft: "950px", paddingTop:"60px", lineHeight:"2.5", fontSize:"20px", color:"#00b3fe"}}>
                 <li>
@@ -32,7 +32,10 @@ const Committee = () => {
                     </ul>
                 </li>
             </ol>
-        </Layout>
+            <br/>
+            <br/>
+            <br/>
+        </div>
     );
 }
 
