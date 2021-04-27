@@ -1,0 +1,14 @@
+.App {
+  background-color: black;
+  font-family: 'Courier New', Courier, monospace;
+  color: #defe47;
+  text-align: center;
+}
+
+a{
+  color: #00b3fe;
+}
+
+a:hover{
+  color: #0016ee;
+}
