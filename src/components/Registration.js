@@ -26,7 +26,7 @@ const Registration = () => {
                 <input type="text" id="np" name="pno"/><br/><br/>
                 <label for="ccode">Coupon Code(if any) </label><span style={{color:"black"}}>....</span>:<span style={{color:"black"}}>....</span>
                 <input type="text" id="ccode" name="ccode"/><br/><br/><br/>
-                <span style={{color:"black"}}>.....................</span><input type="submit" value="Submit"/>
+                <span style={{color:"black"}}>.....................</span><input className="submit" type="submit" value="Submit"/>
             </form>
             <br/>
             <br/>

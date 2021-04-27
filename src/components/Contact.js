@@ -15,7 +15,7 @@ const Contact = () => {
                 <input type="text" id="eid" name="atitle"/><br/><br/>
                 <br/><label for="np">Your message </label><span style={{color:"black"}}>...........</span>:<span style={{color:"black"}}>....</span>
                 <input type="text" id="np" name="pno"/><br/><br/><br/><br/>
-                <span style={{color:"black"}}>.....................</span><input type="submit" value="Shoot!"/>
+                <span style={{color:"black"}}>.....................</span><input className="submit" type="submit" value="Shoot!"/>
             </form>
         </div>
     );
